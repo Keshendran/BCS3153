@@ -1,5 +1,9 @@
+package edu.ijse.gdse41.dominos.model;
 
-
+/**
+ *
+ * @author SHEHANKA
+ */
 
 public class Customer {
     private String customer_Id;
