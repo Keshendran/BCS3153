@@ -18,7 +18,7 @@ public class CustomerTableModel {
     private SimpleStringProperty customer_Name = new SimpleStringProperty("");
     private SimpleIntegerProperty customer_TpNo = new SimpleIntegerProperty(0);
     private SimpleStringProperty customer_Address = new SimpleStringProperty("");
-    private SimpleStringProperty customer_Email = new SimpleStringProperty("");
+    
     
 
     public CustomerTableModel() {
