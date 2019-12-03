@@ -10,12 +10,6 @@ import javafx.beans.property.SimpleStringProperty;
  *
  * @author SHEHANKA
  */
-public class ItemTableModel {
-    private SimpleStringProperty item_Code = new SimpleStringProperty("");
-    private SimpleStringProperty item_Description = new SimpleStringProperty("");
-    private SimpleDoubleProperty item_UnitPrice = new SimpleDoubleProperty(0.0);
-    private SimpleStringProperty item_Type = new SimpleStringProperty("");
-    private SimpleStringProperty item_Image = new SimpleStringProperty("");
 
     public ItemTableModel() {
     }
