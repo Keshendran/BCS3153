@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-//++++
 package edu.ijse.gdse41.dominos.DBController;
 
 import edu.ijse.gdse41.dominos.DB.DBConnection;
