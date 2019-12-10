@@ -233,7 +233,7 @@ public class OrderFormController implements Initializable {
     @FXML
     private void searchCustomer(ActionEvent event) {
         try {
-            
+            String customer_Id = txtCID.getText();
             Customer c =CustomerController.searchCustomer(customer_Id);
             if (c != null) {
                 txtCID.setText(c.getCustomer_Id());
