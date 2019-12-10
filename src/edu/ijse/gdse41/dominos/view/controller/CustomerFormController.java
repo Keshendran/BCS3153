@@ -122,7 +122,7 @@ public class CustomerFormController implements Initializable {
             String customer_Address = txtAddress.getText();
             String customer_Email = txtEmail.getText();
 
-            Customer c = new Customer(customer_id, customer_name, customer_TpNo, customer_Address, customer_Email);
+            Customer c = new Customer(customer_Id, customer_Name, customer_TpNo, customer_Address, customer_Email);
             int i = CustomerController.addCustomer(c);
             if (i > 0) {
                 Alert alert = new Alert(Alert.AlertType.INFORMATION);
