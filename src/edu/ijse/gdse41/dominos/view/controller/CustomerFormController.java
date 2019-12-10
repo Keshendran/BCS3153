@@ -147,7 +147,7 @@ public class CustomerFormController implements Initializable {
                         getClass().getResource("/edu/ijse/gdse41/dominos/view/fxml/DialogStyle.css").toExternalForm());
                 dialogPane.getStyleClass().add("myDialog");
                 //
-                alert.setTitle("Customer Added");
+                alert.setTitle("Customer Add");
                 alert.setHeaderText("This is an error dialog");
                 alert.setContentText("OOPs there is an error adding customer");
                 alert.showAndWait();
