@@ -25,7 +25,7 @@ public class CustomerTableModel {
     }
 
     public String getCustomer_Id() {
-        return customer_Id.get();
+        return ();
     }
 
     public String getCustomer_Name() {
