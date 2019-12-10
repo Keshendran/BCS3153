@@ -70,7 +70,7 @@ public class CustomerFormController implements Initializable {
     @FXML
     private AnchorPane rootCustomer;
     @FXML
-    private JFXTextField txtEmail;
+    
 
     @FXML
     private JFXButton btnPrintCustomers;
