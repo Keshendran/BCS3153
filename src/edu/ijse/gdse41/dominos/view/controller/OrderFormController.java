@@ -225,7 +225,7 @@ public class OrderFormController implements Initializable {
                 alert.setContentText("OOPs there is an error adding customer ");
                 alert.showAndWait();
             }
-        
+        } catch (ClassNotFoundException | SQLException ex) {
             Logger.getLogger(CustomerController.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
