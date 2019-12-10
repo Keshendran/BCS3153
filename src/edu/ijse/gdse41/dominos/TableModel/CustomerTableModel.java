@@ -62,7 +62,7 @@ public class CustomerTableModel {
     }
     
     public void setCustomer_Email(String customer_Email) {
-        this.customer_Email.set(customer_EmailAddress);
+        this.customer_Email.set(customer_Email);
     }
 
 //    public void setItem_Code(String item_Code) {
