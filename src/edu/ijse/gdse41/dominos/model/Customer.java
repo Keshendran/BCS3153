@@ -98,7 +98,7 @@ package edu.ijse.gdse41.dominos.model;
      */
     public void setCustomer_Email(String customer_Email) {
         this.customer_Email = customer_Email;
-        this.customer_Email2 = customer_Email2;
+        
     }
     
     
