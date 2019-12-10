@@ -34,8 +34,7 @@ package edu.ijse.gdse41.dominos.model;
     /**
      * @param customer_Id the customer_Id to set
      */
-    public void setCustomer_Id(String customer_Id) {
-        this.customer_Id = customer_Id;
+   
     }
 
     /**
