@@ -94,7 +94,7 @@
             <Image url="@../../image/Phone_100px.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="30.0" fitWidth="20.0" layoutX="150.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="30.0" fitWidth="20.0" layoutX="110.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../image/User_50px.png" />
          </image>
