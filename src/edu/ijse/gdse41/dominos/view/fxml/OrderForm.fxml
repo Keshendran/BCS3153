@@ -24,9 +24,9 @@
             <Font name="Calibri Bold" size="34.0" />
          </font>
       </Text>
-      <Label layoutX="34.0" layoutY="39.0" opacity="0.9" prefHeight="97.0" prefWidth="999.0" style="-fx-background-color: #1b76ff;" />
-      <Label layoutX="34.0" layoutY="147.0" opacity="0.9" prefHeight="112.0" prefWidth="1128.0" style="-fx-background-color: #1b76ff;" />
-      <Label layoutX="435.0" layoutY="87.0" prefHeight="22.0" prefWidth="22.0" style="-fx-background-color: #ffffff;" />
+      <Label layoutX="40.0" layoutY="39.0" opacity="0.9" prefHeight="97.0" prefWidth="999.0" style="-fx-background-color: #1b76ff;" />
+      <Label layoutX="40.0" layoutY="147.0" opacity="0.9" prefHeight="112.0" prefWidth="1128.0" style="-fx-background-color: #1b76ff;" />
+      <Label layoutX="400.0" layoutY="87.0" prefHeight="22.0" prefWidth="22.0" style="-fx-background-color: #ffffff;" />
       <JFXDatePicker fx:id="txtODate" defaultColor="#1b76ff" layoutX="304.0" layoutY="84.0" prefHeight="28.0" prefWidth="160.0" promptText="Order Date" style="-fx-prompt-text-fill: #ffffff; -fx-text-inner-color: #ffffff;">
          <styleClass>
             <String fx:value="jfx-date-picker" />
