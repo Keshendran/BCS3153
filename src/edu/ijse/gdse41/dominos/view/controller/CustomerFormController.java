@@ -48,7 +48,7 @@ public class CustomerFormController implements Initializable {
     @FXML
     
     @FXML
-    private JFXTextField textAddress;
+    private JFXTextField txtAddress;
     @FXML
     private TableView tblCustomer;
     @FXML
