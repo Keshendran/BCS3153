@@ -60,7 +60,7 @@ public class CustomerFormController implements Initializable {
     @FXML
     private TableColumn tblAddress;
     @FXML
-    private TableColumn tblEmail;
+    
     @FXML
     private JFXButton btnLogOut;
     @FXML
