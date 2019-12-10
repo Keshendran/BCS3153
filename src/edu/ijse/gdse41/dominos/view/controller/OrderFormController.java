@@ -419,7 +419,7 @@ public class OrderFormController implements Initializable {
             String customer_Id=txtCID.getText();
 
 
-            DeliveryFormController cont=fxmlLoader.getController();
+            
             cont.setText(order_Price,order_Id,order_Date,customer_Id,orderDetailList);
 
 
