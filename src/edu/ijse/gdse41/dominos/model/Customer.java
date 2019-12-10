@@ -63,7 +63,9 @@ package edu.ijse.gdse41.dominos.model;
     /**
      * @param customer_TpNo the customer_TpNo to set
      */
-   
+      public void setCustomer_TpNo(int customer_TpNo) {
+        this.customer_TpNo = customer_TpNo;
+    }
 
     /**
      * @return the customer_Address
