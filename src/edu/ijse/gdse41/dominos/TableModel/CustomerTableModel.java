@@ -5,7 +5,7 @@
  */
 package edu.ijse.gdse41.dominos.TableModel;
 
-import javafx.beans.property.SimpleIntegerProperty;
+import javaf.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 
 /**
