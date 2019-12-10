@@ -26,7 +26,7 @@
             <Font size="18.0" />
          </font>
       </JFXPasswordField>
-      <JFXPasswordField fx:id="XXXX" focusColor="WHITE" labelFloat="true" layoutX="563.0" layoutY="399.0" onAction="#btnLoginAction" prefHeight="38.0" prefWidth="327.0" promptText="Password" style="-fx-text-inner-color: #ffffff; -fx-prompt-text-fill: #ffffff;" unFocusColor="WHITE">
+      <JFXPasswordField fx:id="login" focusColor="WHITE" labelFloat="true" layoutX="563.0" layoutY="399.0" onAction="#btnLoginAction" prefHeight="38.0" prefWidth="327.0" promptText="Password" style="-fx-text-inner-color: #ffffff; -fx-prompt-text-fill: #ffffff;" unFocusColor="WHITE">
          <font>
             <Font size="18.0" />
          </font>
