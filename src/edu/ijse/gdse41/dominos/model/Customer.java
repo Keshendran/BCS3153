@@ -12,8 +12,7 @@ package edu.ijse.gdse41.dominos.model;
     private int customer_TpNo;
     private String customer_Address;
     private String customer_Email;
-    private String customer_phone;
-
+   
     public Customer() {
     }
 
