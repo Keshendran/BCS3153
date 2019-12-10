@@ -52,7 +52,7 @@ public class CustomerFormController implements Initializable {
     @FXML
     private TableView tblCustomer;
     @FXML
-    private TableColumn tblCID;
+    private TableColumn tabelCustID;
     @FXML
     private TableColumn tblName;
     @FXML
