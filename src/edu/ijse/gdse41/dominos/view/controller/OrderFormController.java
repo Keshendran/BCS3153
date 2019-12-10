@@ -286,7 +286,7 @@ public class OrderFormController implements Initializable {
                 }
             }
         } catch (ClassNotFoundException | SQLException ex) 
-            
+          Logger.getLogger(OrderController.class.getName()).log(Level.SEVERE, null, ex); 
         }
       
     }
