@@ -240,7 +240,7 @@ public class OrderFormController implements Initializable {
                 txtName.setText(c.getCustomer_Name());
                 txtTPNo.setText(c.getCustomer_TpNo() + "");
                 txtAddress.setText(c.getCustomer_Address());
-                
+                txtEmail.setText(c.getCustomer_Email());
 
                 txtICode.requestFocus();
                 
