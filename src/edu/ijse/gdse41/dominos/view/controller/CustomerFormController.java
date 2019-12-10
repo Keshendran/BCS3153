@@ -86,7 +86,7 @@ public class CustomerFormController implements Initializable {
             tblCID.setCellValueFactory(new PropertyValueFactory<CustomerTableModel, String>("customer_Id"));
             tblName.setCellValueFactory(new PropertyValueFactory<CustomerTableModel, String>("customer_Name"));
             tblTpNo.setCellValueFactory(new PropertyValueFactory<CustomerTableModel, Integer>("customer_TpNo"));
-            tblAddress.setCellValueFactory(new PropertyValueFactory<CustomerTableModel, String>("customer_Address"));
+            tblAddress.setCellValueFactory(new PropertyValueFactory<CustomerTableModel, String>("Customer_Address"));
             tblEmail.setCellValueFactory(new PropertyValueFactory<CustomerTableModel, String>("customer_Email"));
 
             tblCustomer.setItems(data);
