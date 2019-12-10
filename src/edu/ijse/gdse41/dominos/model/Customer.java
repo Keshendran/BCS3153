@@ -92,7 +92,9 @@ package edu.ijse.gdse41.dominos.model;
     /**
      * @param customer_Email the customer_Id to set
      */
-   
+    public void setCustomer_Email(String customer_Email) {
+        this.customer_Email = customer_Email;
+    }
     
     
 }
