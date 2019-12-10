@@ -75,7 +75,7 @@
             <TableColumn fx:id="tblCID" prefWidth="75.0" text="CID" />
           <TableColumn fx:id="tblName" prefWidth="207.0" text="Name" />
           <TableColumn fx:id="tblTpNo" prefWidth="177.0" text="Phone Number" />
-            <TableColumn fx:id="tblAddress" prefWidth="100.0" text="Address" />
+            <TableColumn fx:id="tblAddress" prefWidth="250.0" text="Address" />
              <TableColumn fx:id="tblEmail" prefWidth="500.0" text="Email" />
         </columns>
       </TableView>
