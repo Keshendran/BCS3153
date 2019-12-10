@@ -40,7 +40,7 @@
             <Font size="16.0" />
          </font>
       </JFXTextField>
-      <JFXTextField fx:id="txtAddress" focusColor="WHITE" labelFloat="true" layoutX="290.0" layoutY="197.0" prefHeight="33.0" prefWidth="239.0" promptText="Address" style="-fx-prompt-text-fill: #ffffff; -fx-text-inner-color: #ffffff;" unFocusColor="WHITE">
+      <JFXTextField fx:id="txtAddress" focusColor="WHITE" labelFloat="true" layoutX="590.0" layoutY="197.0" prefHeight="33.0" prefWidth="239.0" promptText="Address" style="-fx-prompt-text-fill: #ffffff; -fx-text-inner-color: #ffffff;" unFocusColor="WHITE">
          <font>
             <Font size="16.0" />
          </font>
