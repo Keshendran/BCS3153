@@ -59,9 +59,7 @@ package edu.ijse.gdse41.dominos.model;
     public int getCustomer_TpNo() {
         return customer_TpNo;
     }
-       public int getCustomer() {
-        return customer;
-    }
+      
 
     /**
      * @param customer_TpNo the customer_TpNo to set
