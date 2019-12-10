@@ -44,7 +44,6 @@ public class CustomerTableModel {
         return customer_Email.get();
     }
    
-
     public void setCustomer_Id(String customer_Id) {
         this.customer_Id.set(customer_Id);
     }
