@@ -222,7 +222,7 @@ public class OrderFormController implements Initializable {
                 //
                 alert.setTitle("Customer Add");
                 alert.setHeaderText("This is an error dialog");
-                alert.setContentText("OOPs there is an error adding customer ");
+                alert.setContentText(" ");
                 alert.showAndWait();
             }
         } catch (ClassNotFoundException | SQLException ex) {
