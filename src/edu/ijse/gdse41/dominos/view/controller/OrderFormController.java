@@ -213,12 +213,7 @@ public class OrderFormController implements Initializable {
                 alert.showAndWait();
                
             } else {
-                Alert alert = new Alert(Alert.AlertType.ERROR);
-                //
-                DialogPane dialogPane = alert.getDialogPane();
-                dialogPane.getStylesheets().add(
-                        getClass().getResource("/edu/ijse/gdse41/dominos/view/fxml/order.css").toExternalForm());
-                dialogPane.getStyleClass().add("myDialog");
+                
                 //
                 alert.setTitle("Customer Add");
                 alert.setHeaderText("This is an error dialog");
