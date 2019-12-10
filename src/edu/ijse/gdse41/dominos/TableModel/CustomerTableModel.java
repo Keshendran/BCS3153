@@ -20,6 +20,7 @@ public class CustomerTableModel {
     private SimpleStringProperty customer_Address = new SimpleStringProperty("");
     private SimpleStringProperty customer_Email = new SimpleStringProperty("");
     
+    
     public CustomerTableModel() {
     }
 
