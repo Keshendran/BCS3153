@@ -6,28 +6,31 @@ package edu.ijse.gdse41.dominos.model;
  *
  * @author SHEHANKA
  */
-public class Customer {
+   public class Customer {
     private String customer_Id;
     private String customer_Name;
     private int customer_TpNo;
     private String customer_Address;
     private String customer_Email;
-
-    public Customer() {
+      
+      public Customer() {
     }
-
-    public Customer(String customer_Id, String customer_Name, int customer_TpNo, String customer_Address, String customer_Email) {
+    
+       public Customer(String customer_Id, String customer_Name, int customer_TpNo, String customer_Address, String customer_Email) {
         this.customer_Id = customer_Id;
         this.customer_Name = customer_Name;
         this.customer_TpNo = customer_TpNo;
         this.customer_Address = customer_Address;
         this.customer_Email = customer_Email;
     }
+   
+    
+   
 
     /**
      * @return the customer_Id
      */
-    public String getCustomer_Id() {
+       public String getCustomer_Id() {
         return customer_Id;
     }
 
@@ -43,6 +46,7 @@ public class Customer {
      */
     public String getCustomer_Name() {
         return customer_Name;
+        
     }
 
     /**
@@ -58,11 +62,12 @@ public class Customer {
     public int getCustomer_TpNo() {
         return customer_TpNo;
     }
-
+      
+    
     /**
      * @param customer_TpNo the customer_TpNo to set
      */
-    public void setCustomer_TpNo(int customer_TpNo) {
+      public void setCustomer_TpNo(int customer_TpNo) {
         this.customer_TpNo = customer_TpNo;
     }
 
@@ -78,6 +83,7 @@ public class Customer {
      */
     public void setCustomer_Address(String customer_Address) {
         this.customer_Address = customer_Address;
+       
     }
     
      /**

@@ -235,7 +235,7 @@ public class CustomerFormController implements Initializable {
             if (i > 0) {
                 Alert alert = new Alert(Alert.AlertType.INFORMATION);
                 //
-                DialogPane dialogPane = alert.getDialogPane();
+                
                 dialogPane.getStylesheets().add(
                         getClass().getResource("/edu/ijse/gdse41/dominos/view/fxml/DialogStyle.css").toExternalForm());
                 dialogPane.getStyleClass().add("myDialog");
@@ -271,7 +271,7 @@ public class CustomerFormController implements Initializable {
             tblName.setCellValueFactory(new PropertyValueFactory<CustomerTableModel, String>("customer_Name"));
             tblTpNo.setCellValueFactory(new PropertyValueFactory<CustomerTableModel, Integer>("customer_TpNo"));
             tblAddress.setCellValueFactory(new PropertyValueFactory<CustomerTableModel, String>("customer_Address"));
-            //tblEmail.setCellValueFactory(new PropertyValueFactory<CustomerTableModel, String>("customer_Email"));
+            tblEmail.setCellValueFactory(new PropertyValueFactory<CustomerTableModel, String>("customer_Email"));
 
             tblCustomer.setItems(data);
             ArrayList<Customer> customers = null;

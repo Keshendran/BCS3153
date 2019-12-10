@@ -20,7 +20,7 @@ public class CustomerTableModel {
     private SimpleStringProperty customer_Address = new SimpleStringProperty("");
     private SimpleStringProperty customer_Email = new SimpleStringProperty("");
     
-
+    
     public CustomerTableModel() {
     }
 
@@ -44,7 +44,7 @@ public class CustomerTableModel {
         return customer_Email.get();
     }
    
-
+      
     public void setCustomer_Id(String customer_Id) {
         this.customer_Id.set(customer_Id);
     }
