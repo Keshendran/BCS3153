@@ -12,6 +12,10 @@ package edu.ijse.gdse41.dominos.model;
     private int customer_TpNo;
     private String customer_Address;
     private String customer_Email;
+      
+      public Customer() {
+    }
+
    
     
     public Customer(String customer_Id, String customer_Name, int customer_TpNo, String customer_Address, String customer_Email) {
