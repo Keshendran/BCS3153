@@ -125,7 +125,7 @@ public class CustomerFormController implements Initializable {
             Customer c = new Customer(customer_Id, customer_Name, customer_TpNo, customer_Address, customer_Email);
             int i = CustomerController.addCustomer(c);
             if (i > 0) {
-                
+                Alert alert = new Alert(Alert.AlertType.INFORMATION);
                 //
                 DialogPane dialogPane = alert.getDialogPane();
                 dialogPane.getStylesheets().add(
