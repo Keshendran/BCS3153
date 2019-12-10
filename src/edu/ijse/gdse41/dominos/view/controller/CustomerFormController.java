@@ -48,7 +48,7 @@ public class CustomerFormController implements Initializable {
     @FXML
     private JFXTextField txtName;
     @FXML
-    private JFXTextField txtAddress;
+    private JFXTextField textAddress;
     @FXML
     private TableView tblCustomer;
     @FXML
@@ -235,7 +235,7 @@ public class CustomerFormController implements Initializable {
             if (i > 0) {
                 Alert alert = new Alert(Alert.AlertType.INFORMATION);
                 //
-                
+                DialogPane dialogPane = alert.getDialogPane();
                 dialogPane.getStylesheets().add(
                         getClass().getResource("/edu/ijse/gdse41/dominos/view/fxml/DialogStyle.css").toExternalForm());
                 dialogPane.getStyleClass().add("myDialog");

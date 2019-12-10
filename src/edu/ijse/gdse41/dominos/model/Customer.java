@@ -24,7 +24,8 @@ package edu.ijse.gdse41.dominos.model;
         this.customer_Email = customer_Email;
     }
    
-    
+    public String getCustomer_Name() {
+        return customer_Name;
    
 
     /**
@@ -44,8 +45,7 @@ package edu.ijse.gdse41.dominos.model;
     /**
      * @return the customer_Name
      */
-    public String getCustomer_Name() {
-        return customer_Name;
+    
         
     }
 

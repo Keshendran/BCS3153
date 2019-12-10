@@ -111,7 +111,7 @@
       </ImageView>
       <JFXButton fx:id="btnPrintCustomers" buttonType="RAISED" layoutX="918.0" layoutY="246.0" onAction="#printAllCustomers" prefHeight="38.0" prefWidth="142.0" style="-fx-background-color: #ffffff;" text="Print Customers" textFill="#1473e6">
          <font>
-            <Font name="Times New Roman Bold" size="20.0" />
+            <Font name="Calibri Bold" size="16.0" />
          </font>
       </JFXButton>
    </children>
