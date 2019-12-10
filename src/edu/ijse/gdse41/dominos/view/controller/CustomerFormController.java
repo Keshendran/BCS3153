@@ -343,7 +343,7 @@ public class CustomerFormController implements Initializable {
 
     @FXML
     private void validationName(KeyEvent event) {
-        //ValidationController.onlyAlpha(txtName);
+        ValidationController.onlyAlpha(textName);
     }
 
 }
