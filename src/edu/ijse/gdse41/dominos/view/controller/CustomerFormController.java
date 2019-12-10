@@ -84,7 +84,7 @@ public class CustomerFormController implements Initializable {
         txtCID.requestFocus();
         try {
             tblCID.setCellValueFactory(new PropertyValueFactory<CustomerTableModel, String>("customer_Id"));
-            tblName.setCellValueFactory(new PropertyValueFactory<CustomerTableModel, String>("customer_Name"));
+           
             tblTpNo.setCellValueFactory(new PropertyValueFactory<CustomerTableModel, Integer>("customer_TpNo"));
             tblAddress.setCellValueFactory(new PropertyValueFactory<CustomerTableModel, String>("customer_Address"));
             tblEmail.setCellValueFactory(new PropertyValueFactory<CustomerTableModel, String>("customer_Email"));
