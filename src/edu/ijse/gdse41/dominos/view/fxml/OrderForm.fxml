@@ -32,26 +32,26 @@
             <String fx:value="jfx-date-picker" />
             <String fx:value="date-picker" />
          </styleClass></JFXDatePicker>
-         <JFXTextField fx:id="txtEmail" focusColor="black" labelFloat="true" layoutX="700.0" layoutY="84.0" prefHeight="28.0" prefWidth="160.0" promptText="Email" style="-fx-prompt-text-fill: #ffffff; -fx-text-inner-color: #ffffff;">
+         <JFXTextField fx:id="txtEmail" focusColor="WHITE" labelFloat="true" layoutX="700.0" layoutY="84.0" prefHeight="28.0" prefWidth="160.0" promptText="Email" style="-fx-prompt-text-fill: #ffffff; -fx-text-inner-color: #ffffff;">
          <styleClass>
             <Font size="50.0" /> 
          </styleClass></JFXTextField>
-      <JFXTextField fx:id="txtCID" focusColor="black" labelFloat="true" layoutX="99.0" layoutY="170.0" onAction="#searchCustomer" prefHeight="35.0" prefWidth="61.0" promptText="CID" style="-fx-prompt-text-fill: #ffffff; -fx-text-inner-color: #ffffff;" unFocusColor="WHITE">
+      <JFXTextField fx:id="txtCID" focusColor="WHITE" labelFloat="true" layoutX="99.0" layoutY="170.0" onAction="#searchCustomer" prefHeight="35.0" prefWidth="61.0" promptText="CID" style="-fx-prompt-text-fill: #ffffff; -fx-text-inner-color: #ffffff;" unFocusColor="WHITE">
          <font> 
             <Font size="18.0" />
          </font>
       </JFXTextField>
-      <JFXTextField fx:id="txtName" focusColor="black" labelFloat="true" layoutX="231.0" layoutY="170.0" prefHeight="35.0" prefWidth="168.0" promptText="Customer Name" style="-fx-prompt-text-fill: #ffffff; -fx-text-inner-color: #ffffff;" unFocusColor="WHITE">
+      <JFXTextField fx:id="txtName" focusColor="WHITE" labelFloat="true" layoutX="231.0" layoutY="170.0" prefHeight="35.0" prefWidth="168.0" promptText="Customer Name" style="-fx-prompt-text-fill: #ffffff; -fx-text-inner-color: #ffffff;" unFocusColor="WHITE">
          <font>
             <Font size="18.0" />
          </font>
       </JFXTextField>
-      <JFXTextField fx:id="txtTPNo" focusColor="black" labelFloat="true" layoutX="486.0" layoutY="170.0" prefHeight="35.0" prefWidth="233.0" promptText="Customer Phone Number" style="-fx-prompt-text-fill: #ffffff; -fx-text-inner-color: #ffffff;" unFocusColor="WHITE">
+      <JFXTextField fx:id="txtTPNo" focusColor="WHITE" labelFloat="true" layoutX="486.0" layoutY="170.0" prefHeight="35.0" prefWidth="233.0" promptText="Customer Phone Number" style="-fx-prompt-text-fill: #ffffff; -fx-text-inner-color: #ffffff;" unFocusColor="WHITE">
          <font>
             <Font size="18.0" />
          </font>
       </JFXTextField>
-      <JFXTextField fx:id="txtAddress" focusColor="black" labelFloat="true" layoutX="826.0" layoutY="170.0" prefHeight="35.0" prefWidth="252.0" promptText="Customer Address" style="-fx-prompt-text-fill: #ffffff; -fx-text-inner-color: #ffffff;" unFocusColor="WHITE">
+      <JFXTextField fx:id="txtAddress" focusColor="WHITE" labelFloat="true" layoutX="826.0" layoutY="170.0" prefHeight="35.0" prefWidth="252.0" promptText="Customer Address" style="-fx-prompt-text-fill: #ffffff; -fx-text-inner-color: #ffffff;" unFocusColor="WHITE">
          <font>
             <Font size="18.0" />
          </font>
