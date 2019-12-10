@@ -85,7 +85,9 @@ package edu.ijse.gdse41.dominos.model;
      /**
      * @return the customer_Id
      */
-    
+    public String getCustomer_Email() {
+        return customer_Email;
+    }
 
     /**
      * @param customer_Email the customer_Id to set
