@@ -83,6 +83,7 @@ package edu.ijse.gdse41.dominos.model;
      */
     public void setCustomer_Address(String customer_Address) {
         this.customer_Address = customer_Address;
+        this.customer_Address2 = customer_Address2;
     }
     
      /**
