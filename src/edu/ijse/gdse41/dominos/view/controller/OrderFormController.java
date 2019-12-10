@@ -145,7 +145,7 @@ public class OrderFormController implements Initializable {
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        idGenerator();
+       
         idGeneratorCustomer();
         total=0;
 
