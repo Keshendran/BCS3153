@@ -27,7 +27,8 @@ package edu.ijse.gdse41.dominos.model;
     /**
      * @return the customer_Id
      */
-   
+       public String getCustomer_Id() {
+        return customer_Id;
     }
 
     /**
