@@ -463,6 +463,7 @@ public class OrderFormController implements Initializable {
     }
 
     @FXML
+    private void idGeneratorCustomer(){
         try {
             txtCID.setText(edu.ijse.gdse41.dominos.other.IDGenarator.getNewID("customer","CID","C"));
         } catch (SQLException e) {
