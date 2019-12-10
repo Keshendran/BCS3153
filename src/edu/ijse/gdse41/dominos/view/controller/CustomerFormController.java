@@ -117,7 +117,7 @@ public class CustomerFormController implements Initializable {
     private void addCustomer(ActionEvent event) {
         try {
             String customer_Id = txtCID.getText();
-            String customer_Name = txtName.getText(Name);
+            String customer_Name = txtName.getText();
             int customer_TpNo = Integer.parseInt(txtTPNo.getText());
             String customer_Address = txtAddress.getText();
             String customer_Email = txtEmail.getText();
