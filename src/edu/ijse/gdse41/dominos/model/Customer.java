@@ -78,8 +78,8 @@ package edu.ijse.gdse41.dominos.model;
     /**
      * @param customer_Address the customer_Address to set
      */
-    public void setCustomer_Address(String customer_Address) {
-        this.customer_Address = customer_Address;
+    public void setCustomer_EmailAddress(String customer_EmailAddress) {
+        this.customer_EmailAddress = customer_EmailAddress;
     }
     
      /**
