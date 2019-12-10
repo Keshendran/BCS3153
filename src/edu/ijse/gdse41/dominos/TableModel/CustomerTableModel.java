@@ -41,7 +41,7 @@ public class CustomerTableModel {
     }
     
     public String getCustomer_Email() {
-        return customer_Email.get();
+        return customer_Email.get(edna@gmail.com);
     }
    
       
