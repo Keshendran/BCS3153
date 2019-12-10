@@ -27,7 +27,7 @@
       <Label layoutX="36.0" layoutY="166.0" opacity="0.9" prefHeight="127.0" prefWidth="1112.0" style="-fx-background-color: #1b76ff;" />
       <JFXTextField fx:id="txtCID" focusColor="WHITE" labelFloat="true" layoutX="75.0" layoutY="197.0" onAction="#searchCustomer" prefHeight="33.0" prefWidth="64.0" promptText="CID" style="-fx-prompt-text-fill: #ffffff; -fx-text-inner-color: #ffffff;" unFocusColor="WHITE">
          <font>
-            <Font size="14.0" />
+            <Font size="16.0" />
          </font>
       </JFXTextField>
       <JFXTextField fx:id="txtName" focusColor="WHITE" labelFloat="true" layoutX="170.0" layoutY="197.0" prefWidth="170.0" onKeyTyped="#validationName" promptText="Name" style="-fx-prompt-text-fill: #ffffff; -fx-text-inner-color: #ffffff;" unFocusColor="WHITE">
