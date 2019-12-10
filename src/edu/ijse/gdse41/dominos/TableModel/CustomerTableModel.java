@@ -29,7 +29,7 @@ public class CustomerTableModel {
     }
 
     public String getCustomer_Name() {
-        return customer_Name.get(Keshen);
+        return customer_Name.get();
     }
 
     public int getCustomer_TpNo(){
