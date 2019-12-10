@@ -252,7 +252,7 @@ public class OrderFormController implements Initializable {
                         getClass().getResource("/edu/ijse/gdse41/dominos/view/fxml/order.css").toExternalForm());
                 dialogPane.getStyleClass().add("myDialog");
                 //
-                alert.setTitle("Customer Search");
+                alert.setTitle("Customer Finding");
                 alert.setHeaderText("This is an error dialog");
                 alert.setContentText("Customer Not Found \n Add him");
                 alert.showAndWait();
