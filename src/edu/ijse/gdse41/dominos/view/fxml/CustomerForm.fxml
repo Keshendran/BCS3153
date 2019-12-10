@@ -79,7 +79,11 @@
              <TableColumn fx:id="tblEmail" prefWidth="500.0" text="Email" />
         </columns>
       </TableView>
-     
+      <JFXButton fx:id="btnLogOut" buttonType="RAISED" layoutX="442.0" layoutY="628.0" onAction="#btnLogOut" prefHeight="38.0" prefWidth="112.0" style="-fx-background-color: #f22613;" text="Log Out" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </JFXButton>
       <JFXButton fx:id="btnMainMenu" buttonType="RAISED" layoutX="574.0" layoutY="628.0" onAction="#btnMainMenu" prefHeight="38.0" prefWidth="112.0" style="-fx-background-color: #15a9f6;" text="Main Menu" textFill="WHITE">
          <font>
             <Font name="Calibri Bold" size="17.0" />
