@@ -6,7 +6,12 @@ package edu.ijse.gdse41.dominos.model;
  *
  * @author SHEHANKA
  */
-
+   public class Customer {
+    private String customer_Id;
+    private String customer_Name;
+    private int customer_TpNo;
+    private String customer_Address;
+    private String customer_Email;
 
     public Customer() {
     }
