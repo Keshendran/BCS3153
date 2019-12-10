@@ -349,7 +349,7 @@ public class OrderFormController implements Initializable {
 
             String order_Id=txtOID.getText();
             String itemCode=txtICode.getText();
-             qty= Integer.parseInt(txtIQty.getText());
+            int qty= Integer.parseInt(txtIQty.getText());
             double unitPrice= Double.parseDouble(txtIPrice.getText());
 
             OrderDetail od=new OrderDetail(order_Id,itemCode,qty,unitPrice);
