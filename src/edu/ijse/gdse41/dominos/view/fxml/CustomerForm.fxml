@@ -76,7 +76,7 @@
           <TableColumn fx:id="tblName" prefWidth="207.0" text="Name" />
           <TableColumn fx:id="tblTpNo" prefWidth="177.0" text="Phone Number" />
             <TableColumn fx:id="tblAddress" prefWidth="250.0" text="Address" />
-             <TableColumn fx:id="tblEmail" prefWidth="500.0" text="Email" />
+             
         </columns>
       </TableView>
       <JFXButton fx:id="btnLogOut" buttonType="RAISED" layoutX="442.0" layoutY="628.0" onAction="#btnLogOut" prefHeight="38.0" prefWidth="112.0" style="-fx-background-color: #f22613;" text="Log Out" textFill="WHITE">
