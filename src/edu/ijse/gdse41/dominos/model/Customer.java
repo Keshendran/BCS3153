@@ -60,7 +60,9 @@ package edu.ijse.gdse41.dominos.model;
         return customer_TpNo;
     }
       
-
+       /**
+     * @return the customer_TpNo
+     */
     /**
      * @param customer_TpNo the customer_TpNo to set
      */
