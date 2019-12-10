@@ -1,6 +1,6 @@
 
 
-package edu.ijse.gdse41.dominos.model;
+package edu.ijse.gdse41.dominos.model.java;
 
 /**
  *
