@@ -36,7 +36,7 @@ public class CustomerTableModel {
         return customer_TpNo.get();
     }
     
-    public String getCustomer_Address() {
+    public String () {
         return customer_Address.get();
     }
     
